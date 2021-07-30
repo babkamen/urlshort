@@ -28,6 +28,7 @@ func main() {
 		printHelp()
 	}
 	flag.Parse()
+	//TODO: add uniform interface - flag files. Here we should check what type of file in the flag
 	redirects := mergeMaps(
 		createRedirectsFromJson,
 		createRedirectsFromYaml,
